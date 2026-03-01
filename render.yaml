@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: zoll-aed-plus-agent
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    rootDir: "web-version"
